@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="dashboard">
+        <h2>Welcome to Your Dashboard</h2>
+        <form id="userInfoForm" onsubmit="handleDashboardSubmit(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" required>
+
+            <label for="income">Annual Income:</label>
+            <input type="number" id="income" placeholder="Enter your annual income" required>
+
+            <label for="employment">Employment Status:</label>
+            <input type="text" id="employment" placeholder="Employment status" required>
+
+            <label for="occupation">Occupation:</label>
+            <input type="text" id="occupation" placeholder="Your occupation" required>
+
+            <label for="education">Education Level:</label>
+            <input type="text" id="education" placeholder="Education level" required>
+
+            <label for="homeOwnership">Home Ownership:</label>
+            <input type="text" id="homeOwnership" placeholder="Yes/No" required>
+
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" placeholder="Enter your mobile number" required>
+
+            <label for="address">Address:</label>
+            <textarea id="address" placeholder="Enter your address" required></textarea>
+
+            <label for="maritalStatus">Marital Status:</label>
+            <input type="text" id="maritalStatus" placeholder="Marital status" required>
+
+            <label for="children">Number of Children:</label>
+            <input type="number" id="children" placeholder="Number of children" required>
+
+            <label for="liquidity">Liquidity (in assets):</label>
+            <input type="text" id="liquidity" placeholder="Liquidity/assets" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
